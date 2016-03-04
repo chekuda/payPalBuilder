@@ -6,12 +6,12 @@ if(!session_id())
 }
 if(!isset($_SESSION["language"]))
 {
-    $_SESSION["language"] = "EN";
+    $_SESSION["language"] = "SCHI";
 }
 if(file_exists ("languages/".$_SESSION["language"].".php"))
     include_once("languages/".$_SESSION["language"].".php");
   else
-    include_once("languages/EN.php");
+    include_once("languages/SCHI.php");
 ?>
 <!--@@HEAD FILE FOR ALL THE VIEWS-->
 <head>
@@ -64,15 +64,9 @@ if(file_exists ("languages/".$_SESSION["language"].".php"))
    return $result; 
 } 
 
-if(isset($_SESSION["language"]))
-{
-  $chat_images = dirToArray('images/carousel/chats/'.$_SESSION["language"].'/');
-  $contact_images = dirToArray('images/carousel/contact/'.$_SESSION["language"].'/');
-}
-else{
-  $chat_images = dirToArray('images/carousel/chats/EN/');
-  $contact_images = dirToArray('images/carousel/contact/EN/');
 
-}
+$chat_images = dirToArray('images/carousel/chats/EN/');
+$contact_images = dirToArray('images/carousel/contact/EN/');
+
 
 ?>

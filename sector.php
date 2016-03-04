@@ -4,13 +4,13 @@
                 <div class="bannerImage">
                   
                   <!--@@Video exolanation for vePrompt and veContact depending of the URL requested-->
-                    <?php if($_SERVER['REQUEST_URI'] == '/veTool/veprompt')
+                    <?php if($_SERVER['REQUEST_URI'] == '/paypalBuilder/veprompt')
                     {
 
                         echo $lang["PROMPT_BANNER"];
                   
                     }
-                    if($_SERVER['REQUEST_URI'] == '/veTool/vecontact')
+                    if($_SERVER['REQUEST_URI'] == '/paypalBuilder/vecontact')
                     {
                        echo $lang["CONTACT_BANNER"];
                     }?> 

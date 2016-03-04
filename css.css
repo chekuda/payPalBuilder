@@ -180,12 +180,13 @@ body.contactUsView{
 .footer{
 	position: relative;
     bottom: 0px;
-    background-color: #323F48;
+    background-color: #DADADA;
     height: 50px;
     margin-top: 20px;
     text-align: center;
     padding-top: 15px;
-    color: #fff;
+    color: #323F48;
+    font-weight: bold;
     border-radius: 4px;
 }
 .footer.thankPage{
@@ -250,10 +251,11 @@ form .information #terms2{
 	border: solid 3px #61F4F8;
 }
 .menuUnclick{
-	color: #fff !important;
+	color: #323F48 !important;
     padding: 15px;
         display: block;
     position: relative;
+    font-weight: bold;
 }
 
 .icon.icon-btn.bounce{
@@ -291,7 +293,6 @@ form .information #terms2{
 	margin-right: 50px;
 }
 .logo img{
-	width: 50px;
     height: 50px;
 }	
 
@@ -537,13 +538,16 @@ form .information #terms2{
 }
 .topBarmenu{
 	margin-top: 20px;
-	background-color: #323F48;
+    background-color: #DADADA;
+   
 }
 .topNavOptions li a{
-	color: #fff !important;
+	color: #323F48 !important;
+	font-weight: bold;
 }
 .topNavOptions li.active a{
-	color: #555 !important;
+	color: #fff !important;
+	background-color:#323F48 !important; 
 }
 .topNavOptions li.active span{
 	background-color: #e7e7e7 !important;
@@ -638,6 +642,7 @@ form .information #terms2{
 	}
 	.footer{
 		background-color: transparent;
+		color: #DADADA;
 	}
 	.descriptionImage img{
 		width: 100%;
@@ -688,13 +693,25 @@ form .information #terms2{
 	.carousel.contact img {
 		margin-left: 75%;
 	}
+	.navbar-brand{
+		padding: 0px;
+		margin-right: 0px;
+	}
+	.navbar-toggle{
+		margin-right: 5px;
+	}
+
 	.hiddenPage{
 		visibility: visible;
 	}
+
 	.thanksImage img{
 		vertical-align: middle;
 	    height: auto;
     	width: 290px;
+	}
+	.topBarmenu{
+		border-radius: 3px;
 	}
 	.sumarytemplate{
 		height: auto;
