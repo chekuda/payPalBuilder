@@ -6,7 +6,7 @@ if(!session_id())
 ?>
 <!--@@INDEX VIEW-->
 <!DOCTYPE html>
-<html lang="es">
+<html lang="zh-Hans">
 <?php include_once('head.php'); ?>
 <body>
     <div id="veindexView">

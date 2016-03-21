@@ -539,6 +539,7 @@ form .information #terms2{
 .topBarmenu{
 	margin-top: 20px;
     background-color: #DADADA;
+    padding: 6px;
    
 }
 .topNavOptions li a{
@@ -547,7 +548,8 @@ form .information #terms2{
 }
 .topNavOptions li.active a{
 	color: #fff !important;
-	background-color:#323F48 !important; 
+	background-color:#323F48 !important;
+	border-radius: 3px;
 }
 .topNavOptions li.active span{
 	background-color: #e7e7e7 !important;
