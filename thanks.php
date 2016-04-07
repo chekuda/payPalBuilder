@@ -34,7 +34,7 @@ if(isset($_POST['name'])&&isset($_POST['company'])&&isset($_POST['email'])&&isse
     }
     else
     {
-     header("Location: http://vebuilder.com/newbuilder/index");
+     header("Location: http://vebuilder.com/paypalBuilder/index");
         die();
     }
 }
@@ -44,7 +44,7 @@ else if(isset($_SESSION['submit']))
 }
 
 else{
-   header("Location: http://vebuilder.com/newbuilder/index");
+   header("Location: http://vebuilder.com/paypalBuilder/index");
     session_destroy();
     die();
 }
@@ -63,7 +63,7 @@ else{
             <div id="content">
                 <div id="thankyou"><?php echo $lang["COMPLETE_PAGE"];?></div>
                 <div class="thanksImage">
-                    <img src="images/thanks.png">
+                    <!--<img src="images/thanks.png">-->
                 </div>
                 
             </div>

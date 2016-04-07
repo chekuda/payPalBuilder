@@ -57,8 +57,9 @@
 	$lang["FORM_SENDER_EMAIL"] = "网站客服邮箱 （用于邮件再营销）";
 	$lang["FORM_OPTIONAL_INFORMATION"] = "其他信息";
 	$lang["FORM_QQ_NUMBER"] = "请填写您的QQ号码";
+	$lang["FORM_NUMBER"] = "手机号码";
 	$lang["FORM_ECOMMERCE_PLATFORM"] = "所使用的电商平台";
-	$lang["FORM_SALE_PERSON"] = "所对接的Ve销售员工";
+	$lang["FORM_SALE_PERSON"] = "请选择向您推荐Ve的渠道";
 	$lang["FORM_TEMRS_CONDITION"] = "同意条款与说明";
 	$lang["FORM_TEMRS_SENTENCE1"] = "<span>我们所有的使用条款可以通过</span> <span id='terms1' href='http://vebuilder.com/doc/VeContract.pdf' target='_blank'>点击</span><span>以下链接可以查阅</span><br><span>我们会遵守您的一切隐私，我们的通过</span> <span id='terms2'>点击</span><span>以下链接可以查阅</span>";
 	$lang["FORM_SUBMIT"] = "提交";
@@ -68,7 +69,7 @@
 	//
 	//
 	$lang["CONTACTUS_BLOCKQUOTE"] = "<p>如果您有关于任何服务以及产品的问题，请通过以下方式随时联系我们<br>我们会尽快联系您并且回复您的信息 <br>如果有需要任何建议请直接联系您的营销顾问</p>";
-    $lang["CONTACTUS_NAME"] = "钱俊";
+    $lang["CONTACTUS_NAME"] = "客户姓名";
     $lang["CONTACTUS_INSERT_NAME"] = "请输入您的名字";
     $lang["CONTACTUS_COMPANY"] = "公司名称";
     $lang["CONTACTUS_EMAIL"] = "电子邮箱";

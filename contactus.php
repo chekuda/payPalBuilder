@@ -18,16 +18,24 @@ if(!session_id())
                 </blockquote>
                 <form action="thanks.php" role="form" method="post" enctype="multipart/form-data">
                     <div class="form-group">
-                        <label><?php echo $lang["CONTACTUS_NAME"];?></label>
+                        
                         <input type="text" class="form-control" name="name" id="name" placeholder="<?php echo $lang["CONTACTUS_INSERT_NAME"];?>"></input>
                     </div>
                      <div class="form-group">
-                        <label><?php echo $lang["CONTACTUS_COMPANY"];?></label>
+                        
                         <input type="text" class="form-control" name="company" id="company" placeholder="<?php echo $lang["FORM_COMPANY_NAME"];?>"></input>
                     </div>
                     <div class="form-group">
-                        <label><?php echo $lang["CONTACTUS_EMAIL"];?></label>
+                        
                         <input type="email" class="form-control" name="email" id="email" placeholder="<?php echo $lang["FORM_EMAIL"];?>"></input>
+                    </div>
+                    <div class="form-group">
+                        
+                        <input type="email" class="form-control" name="qqNumber" id="qqNumber" placeholder="<?php echo $lang["FORM_QQ_NUMBER"];?>"></input>
+                    </div>
+                    <div class="form-group">
+                        
+                        <input type="email" class="form-control" name="phoneNumber" id="phoneNumber" placeholder="<?php echo $lang["FORM_NUMBER"];?>"></input>
                     </div>
                     <div class="form-group">
                         <label><?php echo $lang["CONTACTUS_TEXT"];?></label>

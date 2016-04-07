@@ -73,6 +73,9 @@ include_once('validation.php');?>
                              <div class="form-group">
                                 <input type="text" class="form-control" name="qqNumber" id="qqNumber" placeholder="<?php echo $lang["FORM_QQ_NUMBER"];?>"></input>
                             </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="phoneNumber" id="phoneNumber" placeholder="<?php echo $lang["FORM_NUMBER"];?>"></input>
+                            </div>
                               <div class="form-group">
                                 <label class="sales" id="sales"><?php echo $lang["FORM_ECOMMERCE_PLATFORM"];?></label>
                                  <select name="affiliate" id="affiliate" class="form-control">
@@ -115,14 +118,11 @@ include_once('validation.php');?>
                                 <label class="sales" id="salesPerson"><?php echo $lang["FORM_SALE_PERSON"];?></label>
                               <select id="sales" name="sales" class="form-control">
                                      <option value=""></option>
-                                    <option value="James Wong">James Wong</option>
-                                  <option value="June Qian">June Qian</option>
-                                  <option value="Jerry Jia">Jerry Jia</option>
-                                  <option value="Lizzy Chen">Lizzy Chen</option>
-                                  <option value="Lowry Hu">Lowry Hu</option>
-                                  <option value="Lydia Lu">Lydia Lu</option>
-                                  <option value="KK Sharma">KK Sharma</option>
-                                  <option value="Muhamad Isuandi">Muhamad Isuandi</option>
+                                    <option value="Paypal AM">客户经理</option>
+                                  <option value="Paypal RM">客户经理</option>
+                                  <option value="Paypal Channe">渠道部</option>
+                                  <option value="Paypal Marketing">渠道部</option>
+                                  <option value="Ve Consaltant">营销顾问</option>
                                 </select>
                             </div>
                             <!--@@Where the templates selected will be displayed-->
